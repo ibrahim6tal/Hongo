@@ -1,0 +1,224 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+    color:black ;
+    font-weight: 400;
+}
+
+p {
+    color: #808080;
+}
+
+ul li .uline:hover,ul li .uline :active {
+    color: #808080 !important;
+    border-bottom: 1px solid #808080 !important;
+    padding-bottom: 6px !important;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bg1 {
+    background-image: url('../image/one-page-slider-01.jpg');
+    height: 610px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url('../image/one-page-slider-04.jpg');
+    height: 610px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url('../image/one-page-slider-06.jpg');
+    height: 610px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg4 {
+    background-image: url('../image/one-page-slider-05.jpg');
+    height: 610px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bink {
+    background-color: #f7f2ee;
+}
+
+.bg5 {
+    background-image: url('../image/one-page-img-04.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 23.2% 15%;
+}
+
+.bg6 {
+    background-image: url('../image/fashion-brand-parallax-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg7 {
+    background-image: url('../image/bg7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btndrk:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+.btn-dark:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+.img img{
+   position :relative;
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.img:hover img{
+    opacity: 0;
+}
+
+.img1 {
+    overflow: hidden;
+}
+
+    .img1 img {
+        transform: scale(1);
+        transition: 0.2s ease-in;
+    }
+
+    .img1:hover img {
+        transform: scale(1.1);
+    }
+
+.ease {
+    transition: width 2s;
+}
+
+.ease {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.ad:hover .ease {
+    padding-left: 2em;
+    width: 24%;
+}
+
+.img1 {
+    position: relative;
+    z-index: 0;
+}
+
+.text {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7371323529411764) 100%, rgba(0,212,255,1) 100%, rgba(0,0,0,0.7371323529411764) 100%, rgba(9,9,121,1) 100%);
+}
+
+    .text:hover {
+        opacity: 1;
+    }
+
+.form {
+    display: inline-block;
+    border: hidden;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.base-color {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 13.5px;
+    height: 18px;
+    font-size: 18px;
+}
+
+.color {
+    color: #B7B7B7;
+}
+
+.color1 ul li a {
+    font-size: 14px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.btnsend:hover {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.btn-dark:hover {
+    background-color: transparent !important;
+    color: black;
+}
+
+
+.bgwhite {
+    background-image: url('image/Untitled-3.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.imghover {
+    display: block;
+}
+
+.imghov2 {
+    display: none;
+}
+
+.divho:hover .imghover {
+    display: none;
+}
+
+.divho:hover .imghov2 {
+    display: block;
+}
