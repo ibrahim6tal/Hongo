@@ -8,419 +8,403 @@
     <link href="style/StyleSheet.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://hongo.b-cdn.net/wp-content/uploads/2019/11/cropped-hongo-favicon-1-192x192.png" sizes="192x192">
-
+    <link rel="stylesheet" href="style/StyleSheet1.cs" />
     <title>Hongo – Modern &amp; Multipurpose WooCommerce WordPress Theme  – One page navigation</title>
 </head>
 <body>
 
 
-    <nav class="navbar navbar-expand-lg  bg-black navbar-fixed-top mb-0 ">
-        <a href=" index.html" class="navbar-brand mx-5 "><img src="image/white-logo.png" /></a>
-        <button class=" navbar-toggler  navbar-toggle z-index-5 text-white " data-bs-toggle="collapse" data-bs-target="#mainnav"><span class="navbar-toggler-icon text-white bg-white "> </span></button>
-        <div class="collapse navbar-collapse justify-content-center" id="mainnav">
-            <ul class="navbar-nav  ">
-                <li class="nav-item py-3 px-2 "> <a class=" nav-link text-white uline" href="#car">Home</a></li>
-                <li class="nav-item py-3 px-2 "> <a class=" nav-link text-white uline" href="#About">ABOUT</a></li>
-                <li class="nav-item py-3 px-2 "> <a class=" nav-link text-white uline" href="#Shop">SHOP</a></li>
-                <li class="nav-item  py-3 px-2"> <a class=" nav-link text-white uline" href="#Test">TESTIMONIAL</a></li>
-                <li class="nav-item py-3 px-2"><a class="nav-link text-white uline" href="#Jour">JOURNAL</a></li>
-                <li class="nav-item py-3 px-2"><a class="nav-link text-white uline" href="#Contact">CONTACT</a> </li>
-            </ul>
-        </div>
-        <div class=" position-right me-5">
-            <a href=" #" class=" text-white py-5 px-2 "> <i class='bx bx-search'></i></a>
-            <a href=" #" class=" text-white py-5 px-2"> <i class='bx bx-user'></i></a>
-            <a href=" #" class=" text-white py-5 px-2"><i class='bx bx-heart'></i></a>
-            <a href=" #" class=" text-white py-5 px-2"> <i class='bx bx-cart'></i></a>
-        </div>
-    </nav>
+    <header class=" position-fixed top-0 w-100 bg_hon  borderhead">
+        <div class="navbar navbar-light navbar-expand-lg py-0 ">
+            <div class="container-fluid py-lg-3 px-0 px-lg-5 ">
+                <a href="index.html" class="navbar-brand navepad"><img src="image/Hongo_logo.png" title="Website Logo" alt="Website logo image" /></a>
+                <button class="navbar-toggler ms-auto me-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="d-flex flex-column">
+                        <span class="text-white marginemin1"><i class='bx bx-minus '></i> </span>
+                        <span class="text-white  "><i class='bx bx-minus'></i></span>
+                        <span class="text-white marginemin "><i class='bx bx-minus'></i></span>
+                    </div>
+                </button>
+                <div class="order-lg-last mt-2 px-4">
+                    <button class="bg-transparent text-white canvasbu mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class='bx bx-search'></i></button>
+                    <a href="#" class="text-white mx-1"><i class='bx bx-user'></i></a>
+                    <a href="#" class="text-white mx-1"><i class='bx bx-heart'></i></a>
+                    <button type="button" class="btn text-white cartbu p-0 mx-1 mb-1" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                        <i class='bx bx-cart'></i>
+                    </button>
+                </div>
 
+                <nav class="collapse navbar-collapse order-lg-1 mt-2 mt-lg-0" id="navbarNav">
+                    <ul class="navbar-nav  mx-lg-auto p-0 nav-pills" id="navbar-example2">
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white ms-lg-0 navepad" href="#scrollspyHeading1">home</a></li>
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white navepad" href="#scrollspyHeading2">about</a></li>
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white navepad" href="#scrollspyHeading3">shop</a></li>
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white navepad" href="#scrollspyHeading4">Testimonial</a></li>
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white navepad" href="#scrollspyHeading5">Journal</a></li>
+                        <li class="nav-item"><a class="nav-link  text-uppercase navlinks text-white navepad me-0" href="#scrollspyHeading6">Contact</a></li>
+                    </ul>
+                </nav>
 
-    <div class=" container-fluid px-0 ">
-        <div id="car" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#car" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#car" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#car" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#car" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000 ">
-                    <div class=" container-fluid bg1 mt-5 pt-5">
-                        <div class="container ">
-                            <div class=" row mt-4 ms-5 ">
-                                <div class="col col-lg-5 mt-1 ">
-                                    <div class="d-flex mt-5  ">
-                                        <div class="border-top text-black border-1 fw-bold pb-0 mb-0" style="margin-top:8px; border-color:black !important; width:27px;">&emsp;&emsp;&emsp;&emsp;</div>
-                                        <h6 class="">&ensp; NEW COLLECTION 2019</h6>
+        </div>
+    </header>
+
+
+
+
+    <div class="scrollspy-example m-0" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+
+        <div id="scrollspyHeading1" class=" position-relative">
+            <div class="position-absolute followpos">
+                <ul class="py-0 px-3">
+                    <li class="list-unstyled"><a href="https://twitter.com/" class="text-decoration-none text-dark "><i class='bx bxl-twitter'></i></a></li>
+                    <li class="list-unstyled my-2"><a href="https://www.linkedin.com/" class="text-decoration-none text-dark "><i class='bx bxl-linkedin'></i></a></li>
+                    <li class="list-unstyled"><a href="https://www.facebook.com/" class="text-decoration-none text-dark "><i class='bx bxl-facebook'></i></a></li>
+                </ul>
+                <div class="text-uppercase text-black-50 followrot d-inline-block mt-4">
+                    Follow us
+                </div>
+            </div>
+            <div class="container-fluid p-0 bge ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><span class="text-dark">01</span></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"><span class="text-dark">02</span></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><span class="text-dark">03</span></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"><span class="text-dark">04</span></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="container-fluid p-0">
+                            <div class="carousel-item active ">
+                                <div class="cover-background" style="background-image:url(image/one-page-slider-01.jpg)">
+                                    <div class="row w-100 h-100 align-items-center justify-content-lg-start ms-2">
+                                        <div class="col-9 col-lg-4">
+                                            <h6 class="position-relative">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; NEW COLLECTION 2019</h6>
+                                            <h1 class="mb-0">Brown leather</h1>
+                                            <h1 class="mt-0">women's bags</h1>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
+                                            <h3 class="my-4"><del>Regular £69.00</del> <strong>Just £59.00</strong></h3>
+                                            <a href="#" class="text-decoration-none shopbtn text-center text-uppercase text-white ">Shope women</a>
+                                        </div>
                                     </div>
-                                    <h1 class="fw-bolder mb-0 "> Brown leather</h1>
-                                    <h1 class="fw-bolder mb-0">  women's bags</h1>
-                                    <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
-                                    <h3 class=" mb-4"><span class=" text-decoration-line-through me-3 ">  Regular £69.00</span><span class=" fw-bolder ">Just £59.00</span></h3>
-                                    <a class="btn btn-dark rounded-0  px-3 py-1 text-uppercase">Shope women</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="cover-background" style="background-image:url(image/one-page-slider-04.jpg)">
+                                    <div class="row w-100 h-100 align-items-center justify-content-lg-start ms-5">
+                                        <div class="col-9 col-lg-4">
+                                            <h6 class="position-relative">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  MADE OF NATURAL MATERIALS</h6>
+                                            <h1 class="mb-0">Natural mules</h1>
+                                            <h1 class="mt-0">with bow bag</h1>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
+                                            <h3 class="my-4"><del>Regular £69.00</del> <strong>Just £59.00</strong></h3>
+                                            <a href="#" class="text-decoration-none shopbtn text-center text-uppercase text-white ">Shope women</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="cover-background" style="background-image:url(image/one-page-slider-05.jpg)">
+                                    <div class="row w-100 h-100 align-items-center justify-content-lg-start ms-5">
+                                        <div class="col-9 col-lg-4">
+                                            <h6 class="position-relative">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  HEADBAND WITH A KNOT</h6>
+                                            <h1 class="mb-0">Printed turban</h1>
+                                            <h1 class="mt-0">style tote bag</h1>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
+                                            <h3 class="my-4"><del>Regular £69.00</del> <strong>Just £59.00</strong></h3>
+                                            <a href="#" class="text-decoration-none shopbtn text-center text-uppercase text-white ">Shope men</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="cover-background" style="background-image:url(image/one-page-slider-06.jpg)">
+                                    <div class="row w-100 h-100 align-items-center justify-content-lg-start ms-5">
+                                        <div class="col-9 col-lg-4">
+                                            <h6 class="position-relative">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; CLASSIC CAMOUFLAGE</h6>
+                                            <h1 class="mb-0">Camouflage</h1>
+                                            <h1 class="mt-0">trunks bag</h1>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
+                                            <h3 class="my-4"><del>Regular £69.00</del> <strong>Just £59.00</strong></h3>
+                                            <a href="#" class="text-decoration-none shopbtn text-center text-uppercase text-white ">Shope women</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <div class=" container-fluid bg2 mt-5 pt-5">
-                        <div class="container ">
-                            <div class=" row mt-4 ms-5">
-                                <div class="col col-lg-5 mt-1 ">
-                                    <div class="d-flex mt-5 ">
-                                        <div class="border-top text-black border-1 fw-bold pb-0 mb-0" style="margin-top:8px; border-color:black !important; width:27px;">&emsp;&emsp;&emsp;&emsp;</div>
-                                        <h6 class=" ">&ensp; MADE OF NATURAL MATERIALS</h6>
-                                    </div>
-                                    <h1 class="fw-bolder mb-0 "> Natural mules</h1>
-                                    <h1 class="fw-bolder mb-0 "> with bow bag</h1>
-                                    <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
-                                    <h3 class=" mb-4"><span class=" text-decoration-line-through me-3 ">  Regular £69.00</span>  <span class=" fw-bolder ">Just £59.00</span>  </h3>
-                                    <a href="#" class="btn btn-dark rounded-0  px-3 py-1 text-uppercase">Shope women</a>
-                                </div>
-                            </div>
+            </div>
+            <div class="container-fluid bg-white">
+                <div class="container bg-white">
+                    <div class="row  py-5 ">
+                        <div class="col-md-4 text-center">
+                            <p class="slidafter position-relative d-inline-block"><span class=" position-absolute icons"><i class='bx bx-world '></i> </span><span class="slidafter">FREE STANDARD SHIPPING</span></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p class="slidafter position-relative d-inline-block"><span class=" position-absolute icons"><i class='bx bx-wallet'></i></span><span class="slidafter">100% MONEY BACK</span></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p class="slidafter position-relative d-inline-block"><span class=" position-absolute icons"><i class='bx bx-gift'></i></span><span class="slidafter">GIFTS FOR MEMBERS</span></p>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item " data-bs-interval="3000">
-                    <div class=" container-fluid bg3 mt-5 pt-5">
-                        <div class="container ">
-                            <div class=" row mt-4 ms-5">
-                                <div class="col col-lg-5 mt-1">
-                                    <div class="d-flex mt-5 ">
-                                        <div class="border-top text-black border-1 fw-bold pb-0 mb-0" style="margin-top:8px; border-color:black !important; width:27px;">&emsp;&emsp;&emsp;&emsp;</div>
-                                        <h6 class="">&ensp; HEADBAND WITH A KNOT</h6>
-                                    </div>
-                                    <h1 class="fw-bolder mb-0 "> Printed turban</h1>
-                                    <h1 class="fw-bolder mb-0 "> style tote bag</h1>
-                                    <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
-                                    <h3 class=" mb-4"><span class=" text-decoration-line-through me-3 ">Regular £25.00</span> <span class=" fw-bolder "> Just £20.00</span></h3>
-                                    <a href="#" class=" btn btn-dark rounded-0  px-3 py-1 text-uppercase">Shope women</a>
-                                </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="overflow-hidden">
+                                <a href="#" class="position-relative">
+                                    <img src="image/one-page-collection-06.jpg" class="img-fluid aimg" />
+                                </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <div class=" container-fluid bg4 mt-5 pt-5">
-                        <div class="container ">
-                            <div class=" row mt-4 ms-5">
-                                <div class="col col-lg-5 mt-1">
-                                    <div class="d-flex mt-5">
-                                        <div class="border-top text-black border-1 fw-bold pb-0 mb-0" style="margin-top:8px; border-color:black !important; width:27px;">&emsp;&emsp;&emsp;&emsp;</div>
-                                        <h6 class=" ">&ensp; CLASSIC CAMOUFLAGE</h6>
-                                    </div>
-                                    <h1 class="fw-bolder mb-0 ">  Camouflage</h1>
-                                    <h1 class="fw-bolder mb-0 "> trunks bag</h1>
-                                    <p>  Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry. </p>
-                                    <h3 class=" mb-4"><span class=" text-decoration-line-through me-3 "> Regular £35.00 </span>  <span class=" fw-bolder ">Just £30.00</span></h3>
-                                    <a href="#" class=" btn btn-dark rounded-0  px-3 py-1 text-uppercase">SHope men</a>
-                                </div>
+                        <div class="col-lg-3">
+                            <div class="overflow-hidden">
+                                <a href="#">
+                                    <img src="image/one-page-collection-05.jpg" class="img-fluid aimg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="overflow-hidden">
+                                <a href="#">
+                                    <img src="image/one-page-collection-01.jpg" class="img-fluid aimg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="overflow-hidden">
+                                <a href="#">
+                                    <img src="image/one-page-collection-03.jpg" class="img-fluid aimg" />
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <div class=" container my-lg-5 ">
-        <div class="row mb-5">
-            <div class=" col-md-4 pt-5 "><div class="border-end sm-clear-both  text-center ps-5"><i class="bx bx-globe  icon-large  d-table-cell"></i> <p class=" d-table-cell ps-3 ">FREE STANDARD SHIPPING</p></div></div>
-            <div class=" col-md-4 pt-5 "><div class="border-end sm-border-display-none text-center ps-5"><i class='bx bx-wallet icon-large  d-table-cell'></i><p class=" d-table-cell ps-3 "> 100% MONEY BACK</p></div></div>
-            <div class=" col-md-4 pt-5"><div><i class='bx bx-gift icon-medium d-table-cell ps-5'></i> <p class=" d-table-cell ps-3  ">GIFTS FOR MEMBERS</p></div></div>
-        </div>
-    </div>
-
-
-    <div class="cont ">
-        <div class="row  mb-md-5">
-            <div class="col-12 col-md-6 col-lg-3 mt-4 img1"><a href=" #"><img src="image/1.jpg" class="img-fluid  width-100 " /><div class="text text-center pt-5"><p class=" mt-5 pt-5"> BASIC POPLIN SHIRT</p> <span class="mt-5 d-inline-block bg-white text-black py-1 px-2">4 ITEMS </span></div></a></div>
-            <div class="col-12 col-md-6 col-lg-3 mt-4 img1"><a href=" #"><img src="image/2.jpg" class="img-fluid  width-100" /><div class="text text-center pt-5"><p class=" mt-5 pt-5"> COMBINED MINI DRESS</p> <span class="mt-5 d-inline-block bg-white text-black py-1 px-2">4 ITEMS </span></div></a> </div>
-            <div class="col-12 col-md-6 col-lg-3 mt-4 img1"><a href=" #"><img src="image/3.jpg" class="img-fluid  width-100" /><div class="text text-center pt-5"><p class=" mt-5 pt-5"> PLEATED LEG TROUSERS</p> <span class="mt-5 d-inline-block bg-white text-black py-1 px-2">4 ITEMS </span></div></a></div>
-            <div class="col-12 col-md-6 col-lg-3 mt-4 img1"><a href=" #"><img src="image/4.jpg" class="img-fluid  width-100" /><div class="text text-center pt-5"><p class=" mt-5 pt-5"> THE SHOULDER TOP</p> <span class=" d-inline-block  mt-5 bg-white text-black py-1 px-2 ">4 ITEMS </span></div></a></div>
-        </div>
-    </div>
-
-
-    <div class=" container " id="About">
-        <div class=" row">
-            <div class=" col-12 col-md-6 mt-md-5 mt-md-5 p-md-5 ps-md-0">
-                <div class="border-top  border-1 " style="margin-top:5px; margin-bottom:-10px; border-color:black !important; width:15px;"></div> 
-                <p class="d-inline-block ps-4 pb-2 text-black "> ABOUT COMPANY</p>
-                <h3 class=" fw-bold mb-5"> The principle of the design - the harmony, rhythm and balance are all the same with interior and fashion design</h3>
-            </div>
-            <div class=" col-12 col-md-6 mt-md-5 mt-md-5 p-md-5 ps-md-4">
-                <p>The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interested sections and 1.10 from de finibus bonorum et malorum by cicero are also reproduced in their exact original form, accompanied English versions from the 1914 translation by rackham. It is a long & established fact a reader will be distracted the readable content of a page when looking at its layout.</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class=" container-fluid bink mb-3">
-        <div class=" container pt-md-5 pb-md-5">
-            <div class=" row pt-md-5 pb-md-5">
-                <div class=" col-12 col-md-6 pt-md-5 pb-md-5 pe-5 ps-0">
-                    <img title="one-page-img-03" class=" w-100 h-100 " src="image/one-page-img-03.png" />  <!--width="575" height="547"-->
+        <div class=" container " id="About">
+            <div class=" row">
+                <div class=" col-12 col-md-6 mt-md-5 mt-md-5 p-md-5 ps-md-0">
+                    <div class="border-top  border-1 " style="margin-top:5px; margin-bottom:-10px; border-color:black !important; width:15px;"></div>
+                    <p class="d-inline-block ps-4 pb-2 text-black "> ABOUT COMPANY</p>
+                    <h3 class=" fw-bold mb-5"> The principle of the design - the harmony, rhythm and balance are all the same with interior and fashion design</h3>
                 </div>
-                <div class="  col-md-6 pt-md-5 pb-md-5 ps-4 mt-4">
-                    <p class=" mt-5 ps-5 text-black fw-bold mb-1  "> FASHION BRAND THAT CONTEMPORARY</p>
-                    <h2 class=" ps-5"> Latest celebrity style fashion and outfit trends</h2>
-                    <p class=" ps-5"> The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interested sections and 1.10 from de finibus bonorum et malorum by cicero are also reproduced in their exact original form, accompanied english versions from the 1914 translation by rackham. It is a long & established fact a reader will be distracted the readable content of a page when looking.</p>
-                    <p class=" ps-5"> It has has survived not only five centuries, but its also the leap into electronic typesetting leap into life electronic typesetting survived not only five centuries, but also into electronic typesetting.</p>
-                    <a href=" #" class=" btn btn-dark rounded-0 text-uppercase  ms-5"> More Information </a>
+                <div class=" col-12 col-md-6 mt-md-5 mt-md-5 p-md-5 ps-md-4">
+                    <p>The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interested sections and 1.10 from de finibus bonorum et malorum by cicero are also reproduced in their exact original form, accompanied English versions from the 1914 translation by rackham. It is a long & established fact a reader will be distracted the readable content of a page when looking at its layout.</p>
                 </div>
             </div>
         </div>
-    </div>
 
-    
-    <div class="cont" id="Shop">
-        <div class=" row text-center  pb-md-5 mt-5 pt-5 mb-5">
-            <div class=" col-3 ms-auto me-auto ">
-                <h2 class="mb-2"> Recent Products</h2>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
+
+        <div class=" container-fluid bink mb-3">
+            <div class=" container pt-md-5 pb-md-5">
+                <div class=" row pt-md-5 pb-md-5">
+                    <div class=" col-12 col-md-6 pt-md-5 pb-md-5 pe-5 ps-0">
+                        <img title="one-page-img-03" class=" w-100 h-100 " src="image/one-page-img-03.png" />  <!--width="575" height="547"-->
+                    </div>
+                    <div class="  col-md-6 pt-md-5 pb-md-5 ps-4 mt-4">
+                        <p class=" mt-5 ps-5 text-black fw-bold mb-1  "> FASHION BRAND THAT CONTEMPORARY</p>
+                        <h2 class=" ps-5"> Latest celebrity style fashion and outfit trends</h2>
+                        <p class=" ps-5"> The standard chunk of lorem ipsum used since the 1500s is reproduced below for those interested sections and 1.10 from de finibus bonorum et malorum by cicero are also reproduced in their exact original form, accompanied english versions from the 1914 translation by rackham. It is a long & established fact a reader will be distracted the readable content of a page when looking.</p>
+                        <p class=" ps-5"> It has has survived not only five centuries, but its also the leap into electronic typesetting leap into life electronic typesetting survived not only five centuries, but also into electronic typesetting.</p>
+                        <a href=" #" class=" btn btn-dark rounded-0 text-uppercase  ms-5"> More Information </a>
+                    </div>
+                </div>
             </div>
         </div>
 
 
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 mb-5 pb-5 ">
-            <div class="col  box mb-5 text-center ">
-                <div class="">
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-1.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-1-1.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none ">  Textured Sweater </a><p>  $50.00</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col box mb-5 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-2.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-2-2.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 "> <a href="#" class=" text-black text-decoration-none "> Traveller Shirt </a><p>   $510.00</p>
-                  </div>   </a>
-                </div>
-            </div>
-            <div class="col box mb-5 ps-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-3.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-3-3.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none "> Crewneck Sweatshirt </a><p>$20.00 – $50.00</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col box mb-5 ps-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-4.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-4-4.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none ">Skinny Trousers </a><p><span class="text-decoration-line-through ">$200.00 </span>   $160.00</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col box mb-5 ps-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-5.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-5-5.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none ">High Neck Sweater </a><p><span class="text-decoration-line-through ">  $40.00</span>  $35.00</p>
-                        </div>
-                    </a>
+        <div class="cont" id="Shop">
+            <div class=" row text-center  pb-md-5 mt-5 pt-5 mb-5">
+                <div class=" col-3 ms-auto me-auto ">
+                    <h2 class="mb-2"> Recent Products</h2>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
                 </div>
             </div>
 
-            <div class="col box mt-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-6.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-6-6.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none ">Sleeve Sweater </a><p><span class=" text-decoration-line-through ">$140.00 </span>  $120.00</p>
-                        </div>
-                    </a>
-                </div>
 
-            </div>
-            <div class="col box mt-2 ps-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-7.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-7-7.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 ">
-                            <a href="#" class=" text-black text-decoration-none ">Pocket Sweatshirt </a><p>$410.00</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col box mt-2 ps-2 text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-8.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-8-8.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 "> <a href="#" class=" text-black text-decoration-none ">Top With Pleated </a><p>  $20.00 – $50.00</p></div>
-                    </a>
-                </div>
-
-            </div>
-            <div class="col ps-0 box text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-9.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-9-9.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 "> <a href="#" class=" text-black text-decoration-none ">Cotton Sweater </a><p><span class=" text-decoration-line-through ">  $180.00 </span> $155.00</p></div>
-                    </a>
-                </div>
-            </div>  
-           
-            <div class="col ps-0 box text-center ">
-                <div>
-                    <a href=" #">
-                        <div class="w-100 h-100 divho ">
-                            <div class="imghover"><img src="image/2-10.jpg" class="img-fluid" /></div>
-                            <div class="imghov2"><img src="image/2-10-10.jpg" class="img-fluid" /></div>
-                        </div>
-                        <div class="mt-3 "><a href="#" class=" text-black text-decoration-none ">Texture Plain Regular </a><p><span class=" text-decoration-line-through "> $85.00</span>  $70.00</p> </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class=" container-fluid bink mt-5 pb-5" id="Test">
-        <div class=" row text-center pt-md-5 pb-md-5 mt-5">
-            <div class=" col-4 mx-auto  pt-md-5">
-                <h2>  Testimonial</h2>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
-            </div>
-        </div>
-
-        <div id="carouse1" class="carousel slide carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators d-inline-block text-center mt-5 pt-5">
-                <button type="button" data-bs-target="#carouse1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouse1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouse1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class=" container pb-5">
-                    <div class="carousel-item active" data-bs-interval="10000 ">
-                        <div class="row px-5 d-flex justify-content-between align-items-stretch">
-                            <div class="col-md-4 ">
-                                <div>
-                                    <div class=" bgwhite p-5 pe-4 pb-3 rounded-3 ">
-                                        <h6> WE LOVE From Layout </h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                    </div>  <div class=" my-5 ms-5 pb-5">
-                                        <img src="image/shoko-1.png" class=" float-start rounded-circle me-3" width="50" />
-                                        <h6>Shoko Muglikura</h6><p> Designer</p>
-                                    </div>
-                                </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 mb-5 pb-5 ">
+                <div class="col  box mb-5 text-center ">
+                    <div class="">
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-1.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-1-1.jpg" class="img-fluid" /></div>
                             </div>
-                            <div class="col-md-4">
-                                <div>
-                                    <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
-                                        <h6> I love creative design </h6>
-                                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                    </div><div class=" my-5 ms-5 pb-5">
-                                        <img src="image/alex-3.png" class=" float-start rounded-circle me-3" width="50" />
-                                        <h6>Alexandeer Harvard </h6><p> Director </p>
-                                    </div>
-                                </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none ">  Textured Sweater </a><p>  $50.00</p>
                             </div>
-                            <div class="col-md-4">
-                                <div>
-                                    <div class="bgwhite p-5 pe-4 pb-3 rounded-3">
-                                        <h6> WE LOVE DIGITAL AGENCIES </h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                    </div>
-                                    <div class=" my-5 ms-5 pb-5">
-                                        <img src="image/herman3.png" class=" float-start rounded-circle me-3" width="50" />
-                                        <h6>Herman Miller </h6><p>Founder </p>
-                                    </div>
-                                </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col box mb-5 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-2.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-2-2.jpg" class="img-fluid" /></div>
                             </div>
-                        </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none "> Traveller Shirt </a><p>   $510.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col box mb-5 ps-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-3.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-3-3.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none "> Crewneck Sweatshirt </a><p>$20.00 – $50.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col box mb-5 ps-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-4.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-4-4.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none ">Skinny Trousers </a><p><span class="text-decoration-line-through ">$200.00 </span>   $160.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col box mb-5 ps-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-5.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-5-5.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none ">High Neck Sweater </a><p><span class="text-decoration-line-through ">  $40.00</span>  $35.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col box mt-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-6.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-6-6.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none ">Sleeve Sweater </a><p><span class=" text-decoration-line-through ">$140.00 </span>  $120.00</p>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="20000 ">
-                        <div class=" container">
-                            <div class=" row px-5 d-flex justify-content-between  align-items-stretch ">
+                </div>
+                <div class="col box mt-2 ps-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-7.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-7-7.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 ">
+                                <a href="#" class=" text-black text-decoration-none ">Pocket Sweatshirt </a><p>$410.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col box mt-2 ps-2 text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-8.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-8-8.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 "> <a href="#" class=" text-black text-decoration-none ">Top With Pleated </a><p>  $20.00 – $50.00</p></div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col ps-0 box text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-9.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-9-9.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 "> <a href="#" class=" text-black text-decoration-none ">Cotton Sweater </a><p><span class=" text-decoration-line-through ">  $180.00 </span> $155.00</p></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col ps-0 box text-center ">
+                    <div>
+                        <a href=" #">
+                            <div class="w-100 h-100 divho ">
+                                <div class="imghover"><img src="image/2-10.jpg" class="img-fluid" /></div>
+                                <div class="imghov2"><img src="image/2-10-10.jpg" class="img-fluid" /></div>
+                            </div>
+                            <div class="mt-3 "><a href="#" class=" text-black text-decoration-none ">Texture Plain Regular </a><p><span class=" text-decoration-line-through "> $85.00</span>  $70.00</p> </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" container-fluid bink mt-5 pb-5" id="Test">
+            <div class=" row text-center pt-md-5 pb-md-5 mt-5">
+                <div class=" col-4 mx-auto  pt-md-5">
+                    <h2>  Testimonial</h2>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
+                </div>
+            </div>
+
+            <div id="carouse1" class="carousel slide carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators d-inline-block text-center mt-5 pt-5">
+                    <button type="button" data-bs-target="#carouse1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouse1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouse1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class=" container pb-5">
+                        <div class="carousel-item active" data-bs-interval="10000 ">
+                            <div class="row px-5 d-flex justify-content-between align-items-stretch">
+                                <div class="col-md-4 ">
+                                    <div>
+                                        <div class=" bgwhite p-5 pe-4 pb-3 rounded-3 ">
+                                            <h6> WE LOVE From Layout </h6>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                        </div>  <div class=" my-5 ms-5 pb-5">
+                                            <img src="image/shoko-1.png" class=" float-start rounded-circle me-3" width="50" />
+                                            <h6>Shoko Muglikura</h6><p> Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-md-4">
                                     <div>
                                         <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
                                             <h6> I love creative design </h6>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
                                         </div><div class=" my-5 ms-5 pb-5">
                                             <img src="image/alex-3.png" class=" float-start rounded-circle me-3" width="50" />
                                             <h6>Alexandeer Harvard </h6><p> Director </p>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4">
-                                    <div>
-                                        <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
-                                            <h6> WE LOVE DIGITAL AGENCIES </h6>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                        </div>
-                                        <div class=" my-5 ms-5 pb-5 ">
-                                            <img src="image/herman3.png" class=" float-start rounded-circle me-3" width="50" />
-                                            <h6>Herman Miller </h6><p>Founder </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div>
-                                        <div class="bgwhite p-5 pe-4 pb-3 rounded-3">
-                                            <h6>  WE LOVE DIGITAL AGENCIES</h6>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                        </div>
-                                        <div class=" my-5 ms-5 pb-5">
-                                            <img src="image/lendsa-1.png" class=" float-start rounded-circle me-3" width="50" />
-                                            <h6>Lindsay Swanson </h6><p>Director </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="carousel-item" data-bs-interval="30000 ">
-                        <div class=" container">
-                            <div class=" row px-5 d-flex justify-content-between  align-items-stretch">
-
                                 <div class="col-md-4">
                                     <div>
                                         <div class="bgwhite p-5 pe-4 pb-3 rounded-3">
@@ -433,172 +417,236 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="col-md-4">
-                                    <div>
-                                        <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
-                                            <h6>  WE LOVE DIGITAL AGENCIES</h6>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                        <div class="carousel-item" data-bs-interval="20000 ">
+                            <div class=" container">
+                                <div class=" row px-5 d-flex justify-content-between  align-items-stretch ">
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6> I love creative design </h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div><div class=" my-5 ms-5 pb-5">
+                                                <img src="image/alex-3.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6>Alexandeer Harvard </h6><p> Director </p>
+                                            </div>
                                         </div>
-                                        <div class=" my-5 ms-5 pb-5">
-                                            <img src="image/lendsa-1.png" class=" float-start rounded-circle me-3" width="50" />
-                                            <h6>Lindsay Swanson </h6><p>Director </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6> WE LOVE DIGITAL AGENCIES </h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div>
+                                            <div class=" my-5 ms-5 pb-5 ">
+                                                <img src="image/herman3.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6>Herman Miller </h6><p>Founder </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class="bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6>  WE LOVE DIGITAL AGENCIES</h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div>
+                                            <div class=" my-5 ms-5 pb-5">
+                                                <img src="image/lendsa-1.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6>Lindsay Swanson </h6><p>Director </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="col-md-4">
-                                    <div>
-                                        <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
-                                            <h6> WE LOVE DIGITAL AGENCIES  </h6>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
-                                        </div>
-                                        <div class=" my-5 ms-5 pb-5">
-                                            <img src="image/mattie-2.png" class=" float-start rounded-circle me-3" width="50" />
-                                            <h6> Mattie Stepanek</h6><p> Manager</p>
+
+                        <div class="carousel-item" data-bs-interval="30000 ">
+                            <div class=" container">
+                                <div class=" row px-5 d-flex justify-content-between  align-items-stretch">
+
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class="bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6> WE LOVE DIGITAL AGENCIES </h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div>
+                                            <div class=" my-5 ms-5 pb-5">
+                                                <img src="image/herman3.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6>Herman Miller </h6><p>Founder </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6>  WE LOVE DIGITAL AGENCIES</h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div>
+                                            <div class=" my-5 ms-5 pb-5">
+                                                <img src="image/lendsa-1.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6>Lindsay Swanson </h6><p>Director </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div>
+                                            <div class=" bgwhite p-5 pe-4 pb-3 rounded-3">
+                                                <h6> WE LOVE DIGITAL AGENCIES  </h6>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.Lorem Ipsum has been the industrys standard dummy text ever since. </p>
+                                            </div>
+                                            <div class=" my-5 ms-5 pb-5">
+                                                <img src="image/mattie-2.png" class=" float-start rounded-circle me-3" width="50" />
+                                                <h6> Mattie Stepanek</h6><p> Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
 
-
-    <div class="container" id="Jour">
-        <div class=" row text-center py-5">
-            <div class=" col col-lg-3 mx-auto pt-md-5">
-                <h2>Latest Blog</h2>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
-            </div>
-        </div>
-
-        <div class="row mb-5 ">
-            <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "> <img src="image/3-1.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">Fashion is part of culture and it’s about more than just dress </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span>By<a href=" #" class=" text-black-50 text-decoration-none  ">  Alexis Richards</a></p></a></div>
-            <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-2.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">I design to make women feel confident and beautiful fashion </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none ">  Alexis Richards</a></p></a></div>
-            <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-3.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">A designer is only as good as the star who wears her clothes </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none">  Alexis Richards</a></p></a></div>
-            <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-4.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none pe-0">  <h5 class=" pe-4 mb-3 text-black ">Chandeliers are marvels of drop dead showiness the jewellery </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none">  Alexis Richards</a></p></a></div>
-        </div>
-    </div>
-
-
-    <div class=" container-fluid mt-5  bink pb-0  mb-5" id="Contact">
-        <div class=" row">
-            <div class=" col-lg-4 bg5"> </div>
-            <div class="  col-md-3">
-                <div style="padding :45% 10% 15%;">
-                    <div class=" mb-5 position-relative  "><i class="bx bxs-map  icon-medium  text-black base-color"></i><div class=" ps-4 ms-4 "> <h6 class=" mb-2 "> Address details</h6> <p class=" mb-1">401 Broadway, 24th Floor</p><p> Iceland, Iceland 10013. </p></div></div>
-                    <div class=" mb-5 position-relative "> <i class="bx bxs-envelope icon-medium text-black base-color"></i><div class=" ps-4 ms-4 "> <h6 class=" mb-2"> Email address </h6> <p class=" mb-1">info@domain.com</p> <p>info@domain.com</p></div></div>
-                    <div class=" mb-5 position-relative "><i class="bx bxs-phone base-color icon-medium text-black "></i><div class=" ps-4 ms-4 "><h6 class=" mb-2"> Telephone number </h6> <p class=" mb-1">+ 1-800-222-000</p><p>+ 1-600-123-000</p></div></div>
+        <div class="container" id="Jour">
+            <div class=" row text-center py-5">
+                <div class=" col col-lg-3 mx-auto pt-md-5">
+                    <h2>Latest Blog</h2>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry printing and industry.</p>
                 </div>
             </div>
-            <div class="  col-md-5 bg6 " style=" padding: 4%;">
-                <h2 class="text-white mb-5">Simply fill out the form and we'll be in touch with you soon!</h2>
-                <form method="post" action="#">
-                    <input class="form-control form" type="text" name="txtName" id="txtName" placeholder=" Name*" />
-                    <input class="form-control form" placeholder=" E-mail*" type="email" name="txtEmail" id="txtEmail" />
-                    <input type="text" placeholder=" Subject" class="form-control form" name="txtsubject" id="txtsubject" />
-                    <input type="text" placeholder=" Your message" style=" padding-bottom :50px;" class="form-control form" name="txtmessage" id="txtmessage" />
-                    <input type="submit" class="btn bg-white mt-4 border-2 border-white text-black btnsend rounded-0 px-2 py-1 text-uppercase " value="Send message " />
-                </form>
+
+            <div class="row mb-5 ">
+                <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "> <img src="image/3-1.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">Fashion is part of culture and it’s about more than just dress </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span>By<a href=" #" class=" text-black-50 text-decoration-none  ">  Alexis Richards</a></p></a></div>
+                <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-2.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">I design to make women feel confident and beautiful fashion </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none ">  Alexis Richards</a></p></a></div>
+                <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-3.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none ">  <h5 class=" pe-4 mb-3 text-black">A designer is only as good as the star who wears her clothes </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none">  Alexis Richards</a></p></a></div>
+                <div class="col-12 col-md-6 col-lg-3 ad"><a href=" #"><div class=" position-relative "><img src="image/3-4.jpg" class=" img-fluid w-100 ease" /><div class="bg9 position-absolute"> </div></div><a href="#" class="rounded-0 btn btn-dark my-5 p-1"> PHOTOGRAPHY</a><a href=" #" class="  text-decoration-none pe-0">  <h5 class=" pe-4 mb-3 text-black ">Chandeliers are marvels of drop dead showiness the jewellery </h5></a> <p class=" text-black-50"><span class=" mt-5 text-black ">_</span> By<a href=" #" class=" text-black-50 text-decoration-none">  Alexis Richards</a></p></a></div>
             </div>
         </div>
 
-    </div>
+
+        <div class=" container-fluid mt-5  bink pb-0  mb-5" id="Contact">
+            <div class=" row">
+                <div class=" col-lg-4 bg5"> </div>
+                <div class="  col-md-3">
+                    <div style="padding :45% 10% 15%;">
+                        <div class=" mb-5 position-relative  "><i class="bx bxs-map  icon-medium  text-black base-color"></i><div class=" ps-4 ms-4 "> <h6 class=" mb-2 "> Address details</h6> <p class=" mb-1">401 Broadway, 24th Floor</p><p> Iceland, Iceland 10013. </p></div></div>
+                        <div class=" mb-5 position-relative "> <i class="bx bxs-envelope icon-medium text-black base-color"></i><div class=" ps-4 ms-4 "> <h6 class=" mb-2"> Email address </h6> <p class=" mb-1">info@domain.com</p> <p>info@domain.com</p></div></div>
+                        <div class=" mb-5 position-relative "><i class="bx bxs-phone base-color icon-medium text-black "></i><div class=" ps-4 ms-4 "><h6 class=" mb-2"> Telephone number </h6> <p class=" mb-1">+ 1-800-222-000</p><p>+ 1-600-123-000</p></div></div>
+                    </div>
+                </div>
+                <div class="  col-md-5 bg6 " style=" padding: 4%;">
+                    <h2 class="text-white mb-5">Simply fill out the form and we'll be in touch with you soon!</h2>
+                    <form method="post" action="#">
+                        <input class="form-control form" type="text" name="txtName" id="txtName" placeholder=" Name*" />
+                        <input class="form-control form" placeholder=" E-mail*" type="email" name="txtEmail" id="txtEmail" />
+                        <input type="text" placeholder=" Subject" class="form-control form" name="txtsubject" id="txtsubject" />
+                        <input type="text" placeholder=" Your message" style=" padding-bottom :50px;" class="form-control form" name="txtmessage" id="txtmessage" />
+                        <input type="submit" class="btn bg-white mt-4 border-2 border-white text-black btnsend rounded-0 px-2 py-1 text-uppercase " value="Send message " />
+                    </form>
+                </div>
+            </div>
+
+        </div>
 
 
-    <div class="text-center" style=" margin :13% 0;">
-        <p class=" text-black"> - INSTAGRAM @HONGO FASHION</p>
-    </div>
+        <div class="text-center" style=" margin :13% 0;">
+            <p class=" text-black"> - INSTAGRAM @HONGO FASHION</p>
+        </div>
 
 
-    <div class="container-fluid " style="background-color: #1e1e1e; font-size: 14px; color: #808080; ">
-        <nav class="navbar navbar-expand-md navbar-light" style=" border-bottom:1px solid rgba(159,159,159,0.1);">
-            <div class=" container-fluid  " style=" padding :1% 5%;">
-                <h6 class="color me-5">LAST CHANCE TO WIN OUR DISCOUNT!</h6>
-                <form>
-                    <input type="text" placeholder="Enter your email..." style="background-color: #303030; border: #303030; " class=" d-inline-block py-2 px-1 me-0 " />
-                    <label  type="submit" class="btn text-white-50 py-2 px-1 rounded-0 ms-0" style="background-color: #303030; border-color: #303030;">SUBSCRIBE <i class='bx bx-right-arrow-alt'></i></label>
-                </form>
-                <div class="ms-auto d-flex ">
-                    <p class=" pt-3 color"> ON SOCIAL NETWORKS</p>
-                    <ul class=" nav mt-2">
-                        <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-facebook'></i></a></li>
-                        <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-twitter'></i></a></li>
-                        <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-linkedin'></i></a></li>
-                        <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-instagram'></i></a></li>
-                        <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-pinterest-alt'></i></a></li>
+        <div class="container-fluid " style="background-color: #1e1e1e; font-size: 14px; color: #808080; ">
+            <nav class="navbar navbar-expand-md navbar-light" style=" border-bottom:1px solid rgba(159,159,159,0.1);">
+                <div class=" container-fluid  " style=" padding :1% 5%;">
+                    <h6 class="color me-5">LAST CHANCE TO WIN OUR DISCOUNT!</h6>
+                    <form>
+                        <input type="text" placeholder="Enter your email..." style="background-color: #303030; border: #303030; " class=" d-inline-block py-2 px-1 me-0 " />
+                        <label type="submit" class="btn text-white-50 py-2 px-1 rounded-0 ms-0" style="background-color: #303030; border-color: #303030;">SUBSCRIBE <i class='bx bx-right-arrow-alt'></i></label>
+                    </form>
+                    <div class="ms-auto d-flex ">
+                        <p class=" pt-3 color"> ON SOCIAL NETWORKS</p>
+                        <ul class=" nav mt-2">
+                            <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-facebook'></i></a></li>
+                            <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-twitter'></i></a></li>
+                            <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-linkedin'></i></a></li>
+                            <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-instagram'></i></a></li>
+                            <li class=" nav-item"> <a href=" #" class=" text-white-50 nav-link "> <i class='bx bxl-pinterest-alt'></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class=" row color1" style=" padding:5%;">
+                <div class="col-md-2 offset-lg-1 mx-0 p-0 text-center  text-md-start">
+                    <a href=" #"><img src="image/footer-logo.png" /></a>
+                    <ul class="list-unstyled mt-4"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum is simply dummy text of industry lorem ipsum is simply dummy typesetting text. </p></ul>
+                </div>
+                <div class="col-md-2 offset-lg-1 p-0 text-center  text-md-start">
+                    <h6 class=" color mb-4 ">CATEGORIES</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 "><a href="#">Women collection</a></li>
+                        <li class="mb-2"><a href="#">Men collection</a></li>
+                        <li class="mb-2"><a href="#"> Child collection</a></li>
+                        <li class="mb-2"><a href="#">Accessories</a></li>
+                        <li class="mb-2"><a href="#">Leather shoes</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-        <div class=" row color1" style=" padding:5%;">
-            <div class="col-md-2 offset-lg-1 mx-0 p-0 text-center  text-md-start">
-                <a href=" #"><img src="image/footer-logo.png" /></a>
-                <ul class="list-unstyled mt-4"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum is simply dummy text of industry lorem ipsum is simply dummy typesetting text. </p></ul>
-            </div>
-            <div class="col-md-2 offset-lg-1 p-0 text-center  text-md-start">
-                <h6 class=" color mb-4 ">CATEGORIES</h6>
-                <ul class="list-unstyled">
-                    <li class="mb-2 "><a href="#">Women collection</a></li>
-                    <li class="mb-2"><a href="#">Men collection</a></li>
-                    <li class="mb-2"><a href="#"> Child collection</a></li>
-                    <li class="mb-2"><a href="#">Accessories</a></li>
-                    <li class="mb-2"><a href="#">Leather shoes</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 mb-3 p-0 text-center  text-md-start">
-                <h5 class=" color mb-4">CUSTOMER</h5>
-                <ul class="list-unstyled">
-                    <li class="mb-2 "><a href="#"> Help and support</a></li>
-                    <li class="mb-2"><a href="#"> Shipping and delivery</a></li>
-                    <li class="mb-2"><a href="#"> Payment method</a></li>
-                    <li class="mb-2"><a href="#">Terms and conditions</a></li>
-                    <li class="mb-2"><a href="#"> Privacy policy</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 mb-3 p-0 text-center  text-md-start">
-                <h5 class=" color mb-4"> COMPANY</h5>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#">About company</a></li>
-                    <li class="mb-2"><a href="#">Our services</a></li>
-                    <li class="mb-2"><a href="#">Get the voucher</a></li>
-                    <li class="mb-2"><a href="#">Store locator</a></li>
-                    <li class="mb-2"><a href="#">Contact us</a></li>
-                </ul>
-            </div>
-            <div class=" col-md-3 mb-3 p-0">
-                <h5 class="color  pe-0 me-0 ">FOLLOW US ON INSTAGRAM</h5>
+                <div class="col-md-2 mb-3 p-0 text-center  text-md-start">
+                    <h5 class=" color mb-4">CUSTOMER</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 "><a href="#"> Help and support</a></li>
+                        <li class="mb-2"><a href="#"> Shipping and delivery</a></li>
+                        <li class="mb-2"><a href="#"> Payment method</a></li>
+                        <li class="mb-2"><a href="#">Terms and conditions</a></li>
+                        <li class="mb-2"><a href="#"> Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-3 p-0 text-center  text-md-start">
+                    <h5 class=" color mb-4"> COMPANY</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">About company</a></li>
+                        <li class="mb-2"><a href="#">Our services</a></li>
+                        <li class="mb-2"><a href="#">Get the voucher</a></li>
+                        <li class="mb-2"><a href="#">Store locator</a></li>
+                        <li class="mb-2"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class=" col-md-3 mb-3 p-0">
+                    <h5 class="color  pe-0 me-0 ">FOLLOW US ON INSTAGRAM</h5>
 
-                <ul class="list-unstyled ">
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-1.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-2.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-3.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-4.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-5.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-6.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-7.jpg" width=" 50" /></a></li>
-                    <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-8.jpg" width=" 50" /></a></li>
-                </ul>
+                    <ul class="list-unstyled ">
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-1.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-2.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-3.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-4.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-5.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-6.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-7.jpg" width=" 50" /></a></li>
+                        <li class="mb-3 d-inline-block pe-3"><a href="#"><img src="image/4-8.jpg" width=" 50" /></a></li>
+                    </ul>
 
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <div style=" padding: 1% 5%; background-color: #141414; ">
-        <div class=" row mb-0">
-            <div class=" col-md-6 ">  <p style=" color: #808080;"> © 2022 HONGO is Proudly Powered by ...</p></div>
-            <div class="col-md-6  "><img src="image/footer-payment-icon.png" class="img-fluid ms-md-auto d-block" /></div>
+        <div style=" padding: 1% 5%; background-color: #141414; ">
+            <div class=" row mb-0">
+                <div class=" col-md-6 ">  <p style=" color: #808080;"> © 2022 HONGO is Proudly Powered by ...</p></div>
+                <div class="col-md-6  "><img src="image/footer-payment-icon.png" class="img-fluid ms-md-auto d-block" /></div>
+            </div>
         </div>
-    </div>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
